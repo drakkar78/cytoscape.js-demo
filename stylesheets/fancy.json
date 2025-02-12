@@ -86,6 +86,8 @@
   {
     "selector": "node.highlighted",
     "style": {
+      "width": 50,
+      "height": 50,
       "border-width": "8px",
       "border-color": "#AAD8FF",
       "border-opacity": "0.85",
@@ -248,5 +250,27 @@
       "line-color": "#AAD8FF",
       "width": "10px"
     }
-  }
+  },
+  {
+    "selector": "node[?research_network][id = 'P1']",
+    "style": {
+      "width": "80px",  
+      "height": "80px",
+      "background-image": "data(image)",
+      "background-fit": "cover",
+      "border-width": "4px",
+      "border-color": "#FFC300",  
+      "text-valign": "top",
+      "text-halign": "center",
+      "font-size": "14px",
+      "color": "#FFC300",
+      "text-outline-color": "#000",
+      "text-outline-width": "0.3px",
+      "shadow-blur": "20px",
+      "shadow-color": "#FFD700",
+      "shadow-opacity": "1",
+      "shadow-offset-x": "3px",
+      "shadow-offset-y": "3px"
+    }
+  }  
 ]
