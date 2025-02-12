@@ -209,6 +209,40 @@
     }
   },
   {
+    "selector": "node[?research_network]",
+    "style": {
+      "width": 50,
+      "height": 50,
+      "background-image": "data(image)",
+      "background-fit": "cover",
+      "border-width": 2,
+      "border-color": "#4e657f",
+      "text-valign": "top",
+      "text-halign": "center",
+      "font-size": "12px",
+      "color": "#4e657f",
+      "text-outline-color": "#007BFF",
+      "text-outline-width": "0px"
+    }
+  },
+  {
+    "selector": "node[?research_network]:selected",
+    "style": {
+      "border-width": 1,
+      "border-opacity": 0.8,
+      "border-color": "#0056b3"
+    }
+  },
+  {
+    "selector": "edge[?research_network]",
+    "style": {
+      "width": 2,
+      "line-color": "#02eef6",
+      "opacity": 0.6,
+      "curve-style": "bezier"
+    }
+  },  
+  {
     "selector": "edge.highlighted",
     "style": {
       "line-color": "#AAD8FF",

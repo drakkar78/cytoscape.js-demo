@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    { 
+      "data": { 
+        "id": "P1", 
+        "name": "Andrea Bollini", 
+        "role": "Principal Investigator", 
+        "affiliation": "4Science, Princeton University", 
+        "orcid": "0000-0003-0864-8867",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Foto_Perfil_.jpg/819px-Foto_Perfil_.jpg", 
+        "research_topics": ["Open Science", "Repository Systems", "Metadata Standards"],
+        "research_network": true 
+      }, 
+      "classes": "highlight" 
+    },
+    { "data": { "id": "R1", "name": "John Doe", "affiliation": "Harvard University", "image": "https://i.pravatar.cc/300?img=1", "research_topics": ["Machine Learning", "Big Data"], "research_network": true } },
+    { "data": { "id": "R2", "name": "Jane Smith", "affiliation": "MIT", "image": "https://i.pravatar.cc/300?img=2", "research_topics": ["Semantic Web", "Linked Data"], "research_network": true } },
+    { "data": { "id": "R3", "name": "Carlos García", "affiliation": "Stanford University", "image": "https://i.pravatar.cc/300?img=3", "research_topics": ["Cloud Computing", "Cybersecurity"], "research_network": true } },
+    { "data": { "id": "R4", "name": "Emily Zhang", "affiliation": "Princeton University", "image": "https://i.pravatar.cc/300?img=4", "research_topics": ["AI Ethics", "Bias in AI"], "research_network": true } },
+    { "data": { "id": "R5", "name": "Liam Johnson", "affiliation": "Harvard University", "image": "https://i.pravatar.cc/300?img=5", "research_topics": ["Quantum Computing", "Cryptography"], "research_network": true } },
+    { "data": { "id": "R6", "name": "Sofia Martínez", "affiliation": "MIT", "image": "https://i.pravatar.cc/300?img=6", "research_topics": ["Human-Computer Interaction", "UX Research"], "research_network": true } },
+    { "data": { "id": "R7", "name": "Michael Brown", "affiliation": "Stanford University", "image": "https://i.pravatar.cc/300?img=7", "research_topics": ["Blockchain", "Decentralized Systems"], "research_network": true } },
+    { "data": { "id": "R8", "name": "Isabella Rossi", "affiliation": "Princeton University", "image": "https://i.pravatar.cc/300?img=8", "research_topics": ["Data Science", "Explainable AI"], "research_network": true } },
+    { "data": { "id": "R9", "name": "David Lee", "affiliation": "Oxford University", "image": "https://i.pravatar.cc/300?img=9", "research_topics": ["Natural Language Processing", "Speech Recognition"], "research_network": true } },
+    { "data": { "id": "R10", "name": "Chloe Nguyen", "affiliation": "ETH Zurich", "image": "https://i.pravatar.cc/300?img=10", "research_topics": ["Bioinformatics", "Genomic Data Analysis"], "research_network": true } },
+    { "data": { "id": "R11", "name": "Ethan Wilson", "affiliation": "Cambridge University", "image": "https://i.pravatar.cc/300?img=11", "research_topics": ["Robotics", "Autonomous Systems"], "research_network": true } },
+    { "data": { "id": "R12", "name": "Mia Fernández", "affiliation": "University of Tokyo", "image": "https://i.pravatar.cc/300?img=12", "research_topics": ["Computer Vision", "Image Processing"], "research_network": true } },
+    { "data": { "id": "R13", "name": "Noah Kim", "affiliation": "UC Berkeley", "image": "https://i.pravatar.cc/300?img=13", "research_topics": ["Internet of Things", "Smart Cities"], "research_network": true } },
+    { "data": { "id": "R14", "name": "Olivia Silva", "affiliation": "Yale University", "image": "https://i.pravatar.cc/300?img=14", "research_topics": ["Computational Neuroscience", "Cognitive Science"], "research_network": true } },
+    { "data": { "id": "R15", "name": "Alexander Petrov", "affiliation": "Max Planck Institute", "image": "https://i.pravatar.cc/300?img=15", "research_topics": ["Mathematical Modelling", "Graph Theory"], "research_network": true } },
+    { "data": { "id": "R16", "name": "Fatima Hassan", "affiliation": "Indian Institute of Science", "image": "https://i.pravatar.cc/300?img=16", "research_topics": ["Green Computing", "Sustainable AI"], "research_network": true } },
+    { "data": { "id": "R17", "name": "Javier Torres", "affiliation": "National Autonomous University of Mexico", "image": "https://i.pravatar.cc/300?img=17", "research_topics": ["Education Technology", "Digital Learning"], "research_network": true } },
+    { "data": { "id": "R18", "name": "Amira Khan", "affiliation": "University of Cape Town", "image": "https://i.pravatar.cc/300?img=18", "research_topics": ["AI for Social Good", "Ethical AI"], "research_network": true } },
+    { "data": { "id": "R19", "name": "Henrik Svensson", "affiliation": "Lund University", "image": "https://i.pravatar.cc/300?img=19", "research_topics": ["Climate Informatics", "Environmental Data"], "research_network": true } },
+    { "data": { "id": "R20", "name": "Laura Moreau", "affiliation": "Sorbonne University", "image": "https://i.pravatar.cc/300?img=20", "research_topics": ["History of Science", "Digital Archives"], "research_network": true } }
+  ],
+  "edges": [
+    { "data": { "source": "P1", "target": "R1", "relationship": "co-author", "papers": ["Paper A", "Paper B"], "research_network": true } },
+    { "data": { "source": "P1", "target": "R2", "relationship": "co-author", "papers": ["Paper C"], "research_network": true } },
+    { "data": { "source": "P1", "target": "R3", "relationship": "advisor", "papers": ["Thesis Supervision D"], "research_network": true } },
+    { "data": { "source": "P1", "target": "R4", "relationship": "mentor", "papers": ["Research Grant E"], "research_network": true } },
+    { "data": { "source": "P1", "target": "R5", "relationship": "collaboration", "papers": ["Conference F"], "research_network": true } },
+    { "data": { "source": "P1", "target": "R6", "relationship": "co-author", "papers": ["Journal Article G"], "research_network": true } },
+    { "data": { "source": "P1", "target": "R7", "relationship": "project partner", "papers": ["EU Horizon 2020 Project"], "research_network": true } },
+    { "data": { "source": "P1", "target": "R8", "relationship": "editorial board", "papers": ["Journal H"], "research_network": true } },
+    
+    { "data": { "source": "R1", "target": "R5", "relationship": "co-author", "papers": ["Paper E"], "research_network": true } },
+    { "data": { "source": "R2", "target": "R6", "relationship": "collaboration", "papers": ["Paper I"], "research_network": true } },
+    { "data": { "source": "R3", "target": "R9", "relationship": "advisor", "papers": ["Thesis Supervision J"], "research_network": true } },
+    { "data": { "source": "R4", "target": "R10", "relationship": "project partner", "papers": ["National Science Foundation Grant"], "research_network": true } },
+    { "data": { "source": "R5", "target": "R11", "relationship": "co-author", "papers": ["Paper K"], "research_network": true } },
+    { "data": { "source": "R6", "target": "R12", "relationship": "mentor", "papers": ["Young Researchers Program"], "research_network": true } },
+    { "data": { "source": "R7", "target": "R13", "relationship": "collaboration", "papers": ["Paper L"], "research_network": true } },
+    { "data": { "source": "R8", "target": "R14", "relationship": "co-author", "papers": ["Paper M"], "research_network": true } },
+    
+    { "data": { "source": "R9", "target": "R15", "relationship": "conference panel", "papers": ["AI Ethics Symposium"], "research_network": true } },
+    { "data": { "source": "R10", "target": "R16", "relationship": "co-author", "papers": ["Paper N"], "research_network": true } },
+    { "data": { "source": "R11", "target": "R17", "relationship": "collaboration", "papers": ["Paper O"], "research_network": true } },
+    { "data": { "source": "R12", "target": "R18", "relationship": "project partner", "papers": ["Paper P"], "research_network": true } },
+    { "data": { "source": "R13", "target": "R19", "relationship": "co-author", "papers": ["Paper Q"], "research_network": true } },
+    { "data": { "source": "R14", "target": "R20", "relationship": "editorial board", "papers": ["Journal of Machine Learning"], "research_network": true } },
+
+    { "data": { "source": "R15", "target": "R19", "relationship": "collaboration", "papers": ["Environmental AI Project"], "research_network": true } },
+    { "data": { "source": "R16", "target": "R18", "relationship": "co-author", "papers": ["Paper R"], "research_network": true } },
+    { "data": { "source": "R17", "target": "R20", "relationship": "conference keynote", "papers": ["Neural Networks Conference"], "research_network": true } },
+    { "data": { "source": "R18", "target": "R1", "relationship": "collaboration", "papers": ["Paper S"], "research_network": true } },
+    { "data": { "source": "R19", "target": "R2", "relationship": "project partner", "papers": ["Paper T"], "research_network": true } },
+    { "data": { "source": "R20", "target": "R3", "relationship": "co-author", "papers": ["Paper U"], "research_network": true } }
+  ]
+}

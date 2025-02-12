@@ -109,6 +109,15 @@
         clockwise: true,
         startAngle: Math.PI * 1 / 6
       },
+      circle: {
+        name: 'circle',
+        padding: layoutPadding,
+        fit: true,
+        clockwise: true,
+        sort: undefined,
+        animate: true,
+        animationDuration: 1000
+      },
       custom: { // replace with your own layout parameters
         name: 'preset',
         padding: layoutPadding
